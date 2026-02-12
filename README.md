@@ -1,0 +1,2 @@
+# AI--POWER-CUSTOMER-IDENTIFICATION-SYSTEM-USING-FAISS-FACE-RECOGNITION
+An AI-powered Customer Identification System uses face recognition to identify or verify customers in real time. It leverages FAISS(Facebook AI Similarity Search) to perform fast, scalable facial embedding matching against a large customer database. Identify a customer from a camera imagevideo by matching their face against stored customer records.
