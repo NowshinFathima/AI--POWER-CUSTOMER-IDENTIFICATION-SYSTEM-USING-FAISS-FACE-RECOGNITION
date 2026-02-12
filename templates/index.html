@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Customer Identification</title>
+</head>
+<body>
+<h2>AI Face Recognition System</h2>
+<p>Upload a customer image to identify or register.</p>
+
+
+<form action="/identify" method="POST" enctype="multipart/form-data">
+    <input type="file" name="image" required>
+    <button type="submit">Submit</button>
+</form>
+
+{% if result %}
+    <p>{{ result }}</p>
+{% endif %}
+
+</body>
+</html>

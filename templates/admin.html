@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+</head>
+<body>
+
+    <h2>Admin Dashboard</h2>
+
+    <p>Total Customers: {{ total }}</p>
+
+    <h3>Registered Customers:</h3>
+    <ul>
+        {% for customer in customers %}
+            <li>{{ customer }}</li>
+        {% endfor %}
+    </ul>
+
+    <br>
+    <a href="/">Back to Home</a>
+
+</body>
+</html>
